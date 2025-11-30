@@ -57,15 +57,21 @@
     radial-gradient(circle at 80% 80%, rgba(253, 186, 116, 0.05) 0%, transparent 50%);
 }
 
-/* Provider Background - Green gradient */
+/* Provider Background - Colorful delivery illustration */
 .signup-container.provider-bg {
-  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 50%, #6ee7b7 100%);
+  background: linear-gradient(135deg, rgba(209, 250, 229, 0.25) 0%, rgba(167, 243, 208, 0.25) 50%, rgba(110, 231, 183, 0.25) 100%),
+              url('/abcd.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  justify-content: flex-start;
 }
 
 .signup-container.provider-bg::before {
   background: 
-    radial-gradient(circle at 20% 50%, rgba(110, 231, 183, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(167, 243, 208, 0.1) 0%, transparent 50%);
+    radial-gradient(circle at 20% 50%, rgba(110, 231, 183, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(167, 243, 208, 0.05) 0%, transparent 50%);
 }
 
 .signup-content {
