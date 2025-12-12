@@ -9,7 +9,7 @@
 /* Sidebar */
 .sidebar {
   width: 280px;
-  background: linear-gradient(180deg, #6366f1 0%, #8b5cf6 100%);
+  background: linear-gradient(180deg, #B8860B 0%, #8B4513 100%);
   padding: 0;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
   position: sticky;
@@ -79,8 +79,8 @@
 .main-content {
   flex: 1;
   padding: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #E5D4B1 0%, #D2B48C 100%);
+  color: #5D4037;
   min-height: calc(100vh - 4rem);
 }
 
@@ -116,19 +116,20 @@
 }
 
 .stat-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(15px);
   border-radius: 16px;
   padding: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid #D2B48C;
   transition: all 0.3s ease;
-  color: white;
+  color: #5D4037;
+  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.1);
 }
 
 .stat-card:hover {
   transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 25px rgba(139, 69, 19, 0.2);
 }
 
 .stat-content {
@@ -173,7 +174,7 @@
 }
 
 .stat-trend.positive {
-  color: #10b981;
+  color: #B8860B;
 }
 
 .stat-trend.positive::before {
@@ -191,14 +192,14 @@
 }
 
 .view-link {
-  color: rgba(99, 102, 241, 0.8);
+  color: rgba(184, 134, 11, 0.8);
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
 }
 
 .view-link:hover {
-  color: rgba(99, 102, 241, 1);
+  color: rgba(184, 134, 11, 1);
   text-decoration: underline;
 }
 
@@ -244,16 +245,19 @@
   gap: 1rem;
   padding: 1.5rem;
   border-radius: 15px;
+  background: linear-gradient(135deg, #B8860B 0%, #8B4513 100%);
   color: white;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
   backdrop-filter: blur(10px);
+  border: 1px solid rgba(184, 134, 11, 0.3);
+  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2);
 }
 
 .action-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 25px rgba(139, 69, 19, 0.3);
 }
 
 .action-btn i {
@@ -286,14 +290,20 @@
 }
 
 .view-all-btn {
-  color: #ffd700;
+  background: linear-gradient(135deg, #B8860B 0%, #8B4513 100%);
+  color: white;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(184, 134, 11, 0.3);
 }
 
 .view-all-btn:hover {
-  color: #ffed4e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.3);
+  background: linear-gradient(135deg, #D2B48C 0%, #B8860B 100%);
 }
 
 /* Table des commandes */
@@ -346,7 +356,7 @@
 }
 
 .user-info small {
-  color: #7f8c8d;
+  color: #B8860B;
 }
 
 .status-badge {
@@ -406,14 +416,15 @@
   align-items: center;
   gap: 1rem;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid #D2B48C;
   transition: all 0.3s ease;
-  color: #2c3e50;
+  color: #5D4037;
+  box-shadow: 0 4px 15px rgba(139, 69, 19, 0.1);
 }
 
 .user-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(139, 69, 19, 0.2);
 }
 
 .user-avatar {
@@ -438,7 +449,7 @@
 }
 
 .user-details p {
-  color: #7f8c8d;
+  color: #B8860B;
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
 }
@@ -459,7 +470,7 @@
 }
 
 .join-date {
-  color: #7f8c8d;
+  color: #B8860B;
   font-size: 0.8rem;
 }
 
@@ -514,9 +525,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(52, 152, 219, 0.1);
+  background: rgba(210, 180, 140, 0.1);
   border-radius: 10px;
-  color: #7f8c8d;
+  color: #B8860B;
 }
 
 .chart-placeholder i {
